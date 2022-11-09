@@ -1,0 +1,8 @@
+{
+  "name": "owasp-i18n",
+  "description": "OWASP password strength library suitable for use with I18n",
+  "version": "1.0.0",
+  "author": "Joost Lubach",
+  "license": "MIT",
+  "private": true
+}
