@@ -6,7 +6,7 @@ import { Test, TestDescription, TestResult } from './types'
 export default class OWASP {
 
   constructor(
-    config: Partial<Config> = {}
+    config: Partial<Config> = {},
   ) {
     this.config = {...defaultConfig, ...config}
   }

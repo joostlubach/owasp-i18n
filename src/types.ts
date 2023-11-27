@@ -39,8 +39,8 @@ export const TestResult: TestResultStatic = {
     ...overrides,
   }),
 
-  bad:   overrides => TestResult.create('bad', overrides),
-  weak:  overrides => TestResult.create('weak', overrides),
+  bad:    overrides => TestResult.create('bad', overrides),
+  weak:   overrides => TestResult.create('weak', overrides),
   strong: overrides => TestResult.create('strong', overrides),
 }
 

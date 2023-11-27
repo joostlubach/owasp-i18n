@@ -4,7 +4,7 @@ export interface Config {
 
   allowPassphrase: boolean
 
-  minLengthForPassphrase: number
+  minLengthForPassphrase:    number
   minOptionalTestsForStrong: number
 }
 
@@ -14,7 +14,7 @@ export const defaultConfig: Config = {
 
   allowPassphrase: true,
 
-  minLengthForPassphrase: 16,
+  minLengthForPassphrase:    16,
   minOptionalTestsForStrong: 4,
 }
 
