@@ -1,4 +1,4 @@
-import { Test } from '../types'
+import { Test } from '../types.js'
 
 export default function optionalTests(): Test[] {
   return [{
