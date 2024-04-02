@@ -1,7 +1,7 @@
-import { Config, defaultConfig } from './config.js'
-import optionalTests from './tests/optional.js'
-import requiredTests from './tests/required.js'
-import { Test, TestDescription, TestResult } from './types.js'
+import { Config, defaultConfig } from './config'
+import optionalTests from './tests/optional'
+import requiredTests from './tests/required'
+import { Test, TestDescription, TestResult } from './types'
 
 export default class OWASP {
 
